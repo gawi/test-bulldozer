@@ -10,7 +10,7 @@ merge:
   trigger:
     # Pull requests with any of these labels (case-insensitive) are added to
     # the trigger.
-    labels: ["merge when ready"]
+    #labels: ["merge when ready"]
 
   # Pull requests where the body or any comment contains any of these
   # substrings are added to the trigger.
@@ -28,7 +28,7 @@ merge:
   #JPG branches: ["develop"]
 
   # Pull requests targeting branches matching any of these regular expressions are added to the trigger.
-  #JPG branch_patterns: ["feature/.*"]
+  branch_patterns: ["feature/.*"]
 
   # Pull requests with auto merge enabled are added to the trigger.
   #auto_merge: true
