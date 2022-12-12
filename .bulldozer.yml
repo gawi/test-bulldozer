@@ -83,21 +83,21 @@ merge:
 update:
   # "trigger" defines the set of pull requests that should be updated by
   # bulldozer. It accepts the same keys as the trigger in the "merge" block.
-  trigger:
-    labels: ["WIP", "Update Me"]
+  #trigger:
+  #  labels: ["WIP", "Update Me"]
 
   # "ignore" defines the set of pull requests that should not be updated by
   # bulldozer. It accepts the same keys as the ignore in the "merge" block.
-  ignore:
-    labels: ["Do Not Update"]
+  #ignore:
+  #  labels: ["Do Not Update"]
 
   # If true, bulldozer will ignore updating draft pull requests, unless they
   # explicitly match a configured trigger condition.
-  ignore_drafts: false
+  ignore_drafts: true
 
   # "required_statuses" is a list of additional status contexts that must pass
   # before bulldozer will update a pull request, unless the pull request
   # explicitly matches a configured trigger condition. This is useful if you want
   # to require certain statuses to pass before automated updates are made.
-  required_statuses:
-    - "policy-bot: develop"
+  #required_statuses:
+  #  - "policy-bot: develop"
