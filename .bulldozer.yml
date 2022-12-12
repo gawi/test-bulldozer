@@ -27,8 +27,8 @@ merge:
   # Pull requests targeting any of these branches are added to the trigger.
   #JPG branches: ["develop"]
 
-  # Pull requests targeting branches matching any of these regular expressions are added to the trigger.
-  branch_patterns: ["feature/.*"]
+    # Pull requests targeting branches matching any of these regular expressions are added to the trigger.
+    branch_patterns: ["feature/.*"]
 
   # Pull requests with auto merge enabled are added to the trigger.
   #auto_merge: true
