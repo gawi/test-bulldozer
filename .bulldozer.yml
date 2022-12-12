@@ -10,7 +10,7 @@ merge:
   trigger:
   # Pull requests with any of these labels (case-insensitive) are added to
   # the trigger.
-  #labels: ["merge when ready"]
+  labels: ["merge when ready"]
 
   # Pull requests where the body or any comment contains any of these
   # substrings are added to the trigger.
